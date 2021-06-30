@@ -1,89 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Facebook - ಲಾಗ್ ಇನ್ ಅಥವಾ ಸೈನ್ ಅಪ್]]>
+      <![CDATA[Facebook ಗೆ ಲಾಗಿನ್ ಮಾಡಿ]]>
     </line>
     <line>
-      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjI0OTQyODQ5LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
-    </line>
-    <line>
-      <![CDATA[ಪಾಸ್‌ವರ್ಡ್ ಮರೆತುಹೋಗಿದೆ | ಲಾಗ್ ಇನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ | Facebook]]>
-    </line>
-    <line>
-      <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
-    </line>
-    <line>
-      <![CDATA[Facebook]]>
-    </line>
-    <line>
-      <![CDATA[https://www.facebook.com/pages/create/?ref_type=registration_form]]>
+      <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjI1MDI4MzMyLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-06-29T10:30:44 IST" name="Suite" finished-at="2021-06-29T10:31:45 IST" duration-ms="60767">
+  <suite started-at="2021-06-30T10:15:25 IST" name="Failed suite [Suite]" finished-at="2021-06-30T10:15:46 IST" duration-ms="20656">
     <groups>
     </groups>
-    <test started-at="2021-06-29T10:30:44 IST" name="Test" finished-at="2021-06-29T10:31:45 IST" duration-ms="60767">
+    <test started-at="2021-06-30T10:15:25 IST" name="Test(failed)" finished-at="2021-06-30T10:15:46 IST" duration-ms="20656">
       <class name="testng.Testcase1">
-        <test-method is-config="true" signature="openapp()[pri:0, instance:testng.Testcase1@574b560f]" started-at="2021-06-29T10:30:44 IST" name="openapp" finished-at="2021-06-29T10:30:53 IST" duration-ms="8975" status="PASS">
+        <test-method is-config="true" signature="openapp()[pri:0, instance:testng.Testcase1@28975c28]" started-at="2021-06-30T10:15:25 IST" name="openapp" finished-at="2021-06-30T10:15:34 IST" duration-ms="8769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openapp -->
-        <test-method signature="login()[pri:0, instance:testng.Testcase1@574b560f]" started-at="2021-06-29T10:30:53 IST" name="login" finished-at="2021-06-29T10:31:01 IST" duration-ms="8037" status="PASS">
+        <test-method signature="login()[pri:0, instance:testng.Testcase1@28975c28]" started-at="2021-06-30T10:15:34 IST" name="login" finished-at="2021-06-30T10:15:41 IST" duration-ms="6957" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Facebook - ಲಾಗ್ ಇನ್ ಅಥವಾ ಸೈನ್ ಅಪ್]]>
+              <![CDATA[Facebook ಗೆ ಲಾಗಿನ್ ಮಾಡಿ]]>
             </line>
             <line>
-              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjI0OTQyODQ5LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
+              <![CDATA[https://www.facebook.com/login/?privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjI1MDI4MzMyLCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D]]>
             </line>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="closeapp()[pri:0, instance:testng.Testcase1@574b560f]" started-at="2021-06-29T10:31:01 IST" name="closeapp" finished-at="2021-06-29T10:31:06 IST" duration-ms="4384" status="PASS">
+        <test-method is-config="true" signature="closeapp()[pri:0, instance:testng.Testcase1@28975c28]" started-at="2021-06-30T10:15:41 IST" name="closeapp" finished-at="2021-06-30T10:15:46 IST" duration-ms="4830" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeapp -->
       </class> <!-- testng.Testcase1 -->
-      <class name="testng.Testcase2">
-        <test-method is-config="true" signature="openapp()[pri:0, instance:testng.Testcase2@ba54932]" started-at="2021-06-29T10:31:06 IST" name="openapp" finished-at="2021-06-29T10:31:13 IST" duration-ms="7347" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openapp -->
-        <test-method signature="forgotpassword()[pri:0, instance:testng.Testcase2@ba54932]" started-at="2021-06-29T10:31:13 IST" name="forgotpassword" finished-at="2021-06-29T10:31:20 IST" duration-ms="7118" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[ಪಾಸ್‌ವರ್ಡ್ ಮರೆತುಹೋಗಿದೆ | ಲಾಗ್ ಇನ್ ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ | Facebook]]>
-            </line>
-            <line>
-              <![CDATA[https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- forgotpassword -->
-        <test-method is-config="true" signature="closeapp()[pri:0, instance:testng.Testcase2@ba54932]" started-at="2021-06-29T10:31:20 IST" name="closeapp" finished-at="2021-06-29T10:31:25 IST" duration-ms="4538" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeapp -->
-      </class> <!-- testng.Testcase2 -->
-      <class name="testng.Testcase3">
-        <test-method is-config="true" signature="openapp()[pri:0, instance:testng.Testcase3@28975c28]" started-at="2021-06-29T10:31:25 IST" name="openapp" finished-at="2021-06-29T10:31:32 IST" duration-ms="7417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openapp -->
-        <test-method signature="tc3()[pri:0, instance:testng.Testcase3@28975c28]" started-at="2021-06-29T10:31:32 IST" name="tc3" finished-at="2021-06-29T10:31:41 IST" duration-ms="8674" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[Facebook]]>
-            </line>
-            <line>
-              <![CDATA[https://www.facebook.com/pages/create/?ref_type=registration_form]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- tc3 -->
-        <test-method is-config="true" signature="closeapp()[pri:0, instance:testng.Testcase3@28975c28]" started-at="2021-06-29T10:31:41 IST" name="closeapp" finished-at="2021-06-29T10:31:45 IST" duration-ms="4188" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeapp -->
-      </class> <!-- testng.Testcase3 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
 </testng-results>
